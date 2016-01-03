@@ -1,0 +1,101 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1,2,3"
+    tools:context="demo.ui_layout_tablelayout3.MainActivity" >
+
+    <TableRow
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="用户名称" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_span="3"
+            android:gravity="center"
+            android:hint="请输入用户名"
+            android:textSize="15sp" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="用户密码" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_span="3"
+            android:gravity="center"
+            android:hint="请输入密码"
+            android:textSize="15sp" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="性别" />
+
+        <RadioButton android:text="男" />
+
+        <RadioButton android:text="女" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="婚否" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_span="3"
+            android:entries="@array/status"
+            android:gravity="center"
+            android:prompt="@string/prompt" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="爱好" />
+
+        <CheckBox android:text="打球" />
+
+        <CheckBox android:text="上网" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="职位" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_span="3"
+            android:entries="@array/job_status"
+            android:gravity="center"
+            android:prompt="@string/job" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="200dp" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_span="2"
+            android:text="取消" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_span="2"
+            android:text="提交" />
+    </TableRow>
+
+</TableLayout>

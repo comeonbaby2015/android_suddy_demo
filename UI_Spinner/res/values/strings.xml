@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UI_Spinner</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Hobby数据源 -->
+    <string name="db_hobby_promot">请选择爱好</string>
+    <!-- Hobby数据源 -->
+    <string-array name="db_hobby">
+        <item>学习</item>
+        <item>看电影</item>
+        <item>散步</item>
+        <item>爬山</item>
+    </string-array>
+
+</resources>

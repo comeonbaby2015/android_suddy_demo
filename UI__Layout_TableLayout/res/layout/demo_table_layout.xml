@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:collapseColumns="0" -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="2"
+    android:stretchColumns="2" >
+
+    <Button android:text="Button" />
+
+    <TableRow>
+
+        <Button android:text="Button" />
+
+        <Button android:text="Button" />
+
+        <Button android:text="Button Button Button Button Button Button Button" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button android:text="Button" />
+
+        <Button
+            android:layout_column="2"
+            android:text="Button" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="我占据了2列" />
+
+        <Button android:text="Button" />
+    </TableRow>
+
+</TableLayout>

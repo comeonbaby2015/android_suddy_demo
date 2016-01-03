@@ -1,0 +1,4 @@
+HttpServerUrl=http://121.40.202.219:8080
+PicsServerUrl=http://pic.pingpingw.com
+HttpTimeout=10000
+UDPInterval=300000
